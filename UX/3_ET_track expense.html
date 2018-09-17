@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <title>track expense</title>
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="css/expense.css">
+        <script language="JavaScript" type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        <script language="JavaScript" type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script language="JavaScript" type="text/javascript" src="js/expense.js"></script>
+	</head>
+<body>
+    <div class="et-dashboard">
+	   <div class="heading1">TRACK EXPENSE</div>
+		  <div id="mySidenav" class="sidenav">
+			<div class="headerbox" id="registerId">TRACK EXPENSE</div>
+			<div class="closebtn" onclick="closeNav()">&times;</div>
+			<div class ="list">
+				  <li><div id="homeId">Home</div></li>
+				  <li><div id="createIdId">Create Expense </div></li>
+				  <li><div id="trackId">Track Expense</div></li>
+				  <li><div id="consId">Consolidate</div></li>
+				  <li><div id="settingsId">Settings</div></li>
+		    </div>
+	    </div>
+		<span class="navstyle" onclick="openNav()">&#9776; </span>
+		<script>
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "350px";
+		}
+
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+		}
+	
+	</script>
+	
+	     <div class="year">Select year:</div>
+		  <span class="custom-dropdown">
+			<select>
+			    <option>2017</option>
+				<option>2018</option>
+				<option>2019</option>  
+				<option>2020</option>
+				<option>2021</option>
+				<option>2022</option>
+				<option>2023</option>
+				<option>2024</option>
+				<option>2025</option>
+				<option>2026</option>
+				<option>2027</option>
+				<option>2028</option>
+				<option>2029</option>
+				<option>2030</option>
+				
+			</select>
+		</span>
+		<div class="table">
+	 <div class="p">Notes Name</div>                    
+	 <div class="p1">Year</div>                            
+	 <div class="p2">Remerch</div>
+	 </div>
+	 <div class="table2">
+	   <div class ="row1" id="row1Id">
+		   <div class="p3">Notes 1</div>
+		   <div class="p4">2017</div>
+		   <div class="p5">-</div>
+		   <div class="clearfix"></div>
+		</div>
+		
+		<div class="line"></div>
+		
+		<div class ="row">
+		   <div class="p3">Notes 2</div>
+		   <div class="p4">2017</div>
+		   <div class="p5">-</div>
+		    <div class="clearfix"></div>
+		</div>
+		<div class="line"></div>
+		<div class ="row1">
+		   <div class="p3">Notes 3</div>
+		   <div class="p4">2017</div>
+		   <div class="p5">-</div>
+		</div>
+		<div class="line"></div>
+		
+		
+	 </div>
+	</body>
+	</html>

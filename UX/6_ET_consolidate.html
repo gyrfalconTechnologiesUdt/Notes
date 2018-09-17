@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <title>consolidate</title>
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="css/expense.css">
+        <script language="JavaScript" type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        <script language="JavaScript" type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script language="JavaScript" type="text/javascript" src="js/expense.js"></script>
+	</head>
+<body>
+		<div class="et-dashboard">	
+			  <div id="mySidenav" class="sidenav">
+				<div class="headerbox" id="registerId">CONSOLIDATE</div>
+				<div class="closebtn" onclick="closeNav()">&times;</div>
+				<div class ="list">
+					  <li><div id="homeId">Home</div></li>
+					  <li><div id="createIdId">Create Expense </div></li>
+					  <li><div id="trackId">Track Expense</div></li>
+					  <li><div id="consId">Consolidate</div></li>
+					  <li><div id="settingsId">Settings</div></li>
+				</div>
+			</div>
+			<span class="navstyle" onclick="openNav()">&#9776; </span>
+			<script>
+			function openNav() {
+				document.getElementById("mySidenav").style.width = "350px";
+			}
+
+			function closeNav() {
+				document.getElementById("mySidenav").style.width = "0";
+			}
+		
+		</script>
+		<div class="title2">CONSOLIDATE</div>	
+		  <div class="sorticon" id="sorticonId">
+		      <img src="img/handover_sort_549630.png"/>
+		  </div>
+		     <div class="contable" id="contableId">
+				 <div class="concategory">EB Bill</div>                    
+				 <div class="conamount">5000</div>                            
+				 <div class="connotesname">Notes1</div>
+				 <div class="condate">13 August 2017</div>
+			</div>
+			<div class="contable1" id="contable1Id">
+				 <div class="concategory1">Car Service</div>                    
+				 <div class="conamount1">3000</div>                            
+				 <div class="connotesname1">Notes2</div>
+				 <div class="condate1">10 August 2017</div>
+			</div> 
+			   <div class="popup1" id="popupId1">
+		      <img src="img/multiply-close-delete.png" class="close1" id="closeId1"/>
+		   <div class="catmsg" id="catmsgId">EB Bill</div> 
+		   <div class="catmsg" id="catcarId">Car Service</div> 
+           <div class="catmsg">Cable Bill</div>
+           <div class="catmsg">Home Rent</div>
+           <div class="catmsg">Personal</div>
+           <div class="catmsg">Family</div>
+           <div class="catmsg">Entertainment</div>
+		   </div>	
+       </div>		  
+</body>
+</html>		
+		

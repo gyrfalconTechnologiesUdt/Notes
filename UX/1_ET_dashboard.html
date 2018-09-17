@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <title>expense tracker</title>
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="css/expense.css">
+        <script language="JavaScript" type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        <script language="JavaScript" type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script language="JavaScript" type="text/javascript" src="js/expense.js"></script>
+	</head>
+<body>
+		<div class="et-dashboard">
+		   <div class="logo">
+			   <img src="img/expense tracker.png"/>
+		   </div>   
+			<div class="heading">EXPENSE TRACKER</div>
+			  <div id="mySidenav" class="sidenav">
+				<div class="headerbox" id="registerId">EXPENSE TRACKER</div>
+				<div class="closebtn" onclick="closeNav()">&times;</div>
+				<div class ="list">
+					  <li><div id="homeId">Home</div></li>
+					  <li><div id="createIdId">Create Expense </div></li>
+					  <li><div id="trackId">Track Expense</div></li>
+					  <li><div id="consId">Consolidate</div></li>
+					  <li><div id="settingsId">Settings</div></li>
+				</div>
+			</div>
+			<span class="navstyle" onclick="openNav()">&#9776; </span>
+			<script>
+			function openNav() {
+				document.getElementById("mySidenav").style.width = "350px";
+			}
+
+			function closeNav() {
+				document.getElementById("mySidenav").style.width = "0";
+			}
+		
+		</script>
+		   <div class="rec1" id="rec1Id">CREATE EXPENSE</div>
+		   <div class="rec2" id="rec2Id">CONSOLIDATE</div>
+		   <div class="rec3" id="rec3Id">TRACK EXPENSE</div>
+		   <div class="rec4" id "rec4Id">SETTINGS</div>
+     </div>
+ 
+</body>
+</html>

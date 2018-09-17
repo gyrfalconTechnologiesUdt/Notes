@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <title>settings</title>
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="css/expense.css">
+        <script language="JavaScript" type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        <script language="JavaScript" type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script language="JavaScript" type="text/javascript" src="js/expense.js"></script>
+	</head>
+<body>
+		<div class="et-dashboard">
+		   
+			<div class="title1">SETTINGS</div>	
+			  <div id="mySidenav" class="sidenav">
+				<div class="headerbox" id="registerId">SETTINGS</div>
+				<div class="closebtn" onclick="closeNav()">&times;</div>
+				<div class ="list">
+					  <li><div id="homeId">Home</div></li>
+					  <li><div id="createIdId">Create Expense </div></li>
+					  <li><div id="trackId">Track Expense</div></li>
+					  <li><div id="consId">Consolidate</div></li>
+					  <li><div id="settingsId">Settings</div></li>
+				</div>
+			</div>
+			<span class="navstyle" onclick="openNav()">&#9776; </span>
+			<script>
+			function openNav() {
+				document.getElementById("mySidenav").style.width = "350px";
+			}
+
+			function closeNav() {
+				document.getElementById("mySidenav").style.width = "0";
+			}
+		
+		</script>
+		<div class="set">
+		   <div class="settings1">Files.xls(Excel)</div> 
+		   <div class="settings2">Import or Export your data via the .xls files</div> 
+           <div class="settings1">Back up Data</div>
+           <div class="settings2">Avoid Data Loss</div>
+           <div class="settings1">Restore the Data</div>
+           <div class="settings2">Restore your data</div>
+           <div class="settings1">Syncronization</div>
+           <div class="settings1">Use Syncing</div>
+           <div class="settings3">disabled</div>
+		   <div class="syncimg">
+		       <img src="img/off1.png"/>
+		   </div>
+           <div class="settings4">Feedback & Support</div>		   
+       </div>     		   
+	</div>
+</body>
+</html>	

@@ -1,0 +1,160 @@
+body,html{margin: 0; padding: 0; font-family: sans-serif;}
+.et-dashboard{width: 360px; margin:0 auto;background: linear-gradient(#1968ac , #09b19b); height: 600px;}
+.logo{text-align: center;}
+.heading{text-align: center;color: white; font-size: 1.2em;}
+.sidenav {height: 600px; width: 0; position: fixed; z-index: 1; top: 0; background: linear-gradient(#1968ac , #09b19b); overflow-x: hidden; transition: 0.3s; }
+.sidenav li{text-decoration: none; color: #000; display: block; transition: 0.3s;}
+.sidenav li:hover {background-color: #09b19b;}
+.headerbox{ color: #fff; padding: 20px; cursor: pointer;}
+.sidenav .closebtn {position: absolute; top: 0; right: 25px; font-size: 40px; margin-left: 50px; cursor: pointer; color: #fff;}
+.list{margin-top: 20px; cursor: pointer;}
+.navstyle{font-size:30px; cursor:pointer; position: absolute; top: 0; color: #fff; margin-left: 15px;}
+#homeId{background: #0d9d9f; height: 35px; color: #fff; padding: 5px; padding-left: 20px; width: 100%; }
+#createIdId{background: #0d9d9f; height: 35px; color: #fff; padding: 5px; padding-left: 20px; margin-top: 5px; width:100%;}
+#trackId{background: #0d9d9f; height: 35px; color: #fff; padding: 5px; padding-left: 20px; margin-top: 5px; width: 100%; }
+#consId{background: #0d9d9f; height: 35px; color: #fff; padding: 5px; padding-left: 20px; margin-top: 5px; width: 100%;}
+#settingsId{background: #0d9d9f; height: 35px; color: #fff; padding: 5px; padding-left: 20px; margin-top: 5px; width: 100%;}
+.rec1{width:45%; height:20%; background-color: #18797a; margin-left: 10px; margin-top: 45px; text-align: center; color: #fff; padding-top: 45px; float: left;}
+.rec2{width: 45%; height: 20%; background-color: #18797a; text-align: center; color: #fff; padding-top: 45px; margin-left: 188px; margin-top: 45px;}
+.rec3{width:45%; height:20%; background-color: #18797a; margin-left: 10px; margin-top: 30px; text-align: center; color: #fff; padding-top: 45px; float: left;}
+.rec4{width: 45%; height: 20%; background-color: #18797a; text-align: center; color: #fff; padding-top: 45px; margin-left: 188px; margin-top: 30px;}
+/* end of the dashboard page*/
+
+/* start the create expense page*/
+.heading1{text-align: center;color: white; font-size: 1.2em; padding-top:10px;}
+.sec1{}
+.name{position: relative; margin-top: 30px; margin-left: 10px; margin-right: 10px;}
+.amountLbl{top: -15px !important; color: #bcbcbc !important; font-size: 0.80em !important; }
+.name label{ color: #fff   ; position: absolute; top: 0px; transition: 0.5s; pointer-events: none; } 
+.name input[type=text]{background: transparent; border: 0; outline: 0; border-bottom: 1px solid #bcbcbc  ;	}
+.b-Line{display: block; width: 100%;line-height: 1.0em; color: #fff; border-bottom: 1px solid #fff ;}}
+input:focus{border-bottom: 1px solid #fff  !important; font-size: 0.8em !important;}
+input:focus-out{border-bottom: 1px solid #fff !important; font-size: 0.8em !important; float: left;}
+.catLbl{top: -15px !important; color: #bcbcbc !important; font-size: 0.80em !important; }
+.dateLbl{top: -15px !important; color: #bcbcbc  !important; font-size: 0.80em !important; }
+.notesnameLbl{top: -15px !important; color: #bcbcbc  !important; font-size: 0.80em !important; }
+.notesLbl{top: -15px !important; color: #bcbcbc !important; font-size: 0.80em !important; }
+.cam1{margin-left: 100px; margin-top: 20px;}
+.gal1{margin-left: 65px; margin-top: 20px;}
+.savebuttonbutton{margin-top: 180px; text-align: center;background-color: #18797a; height: 35px; padding: 5px; color: #fff; cursor: pointer;width: 35%; margin-left: 30px; float: left;}
+.cancelbuttonbutton{margin-top: 180px; text-align: center;background-color: #18797a; height: 35px; padding: 5px; color: #fff; cursor: pointer; width: 35%; margin-left: 205px;}
+/* end of the create expense page*/
+
+
+/* start the track expense page*/
+.custom-dropdown{float:right; margin-top: -30px; margin-right: 10px;}
+.year { font-size: 1.2em; color: white; margin-top: 50px; margin-left: 50px;}
+.custom-dropdown {position: relative; display: inline-block; vertical-align: middle; margin: 12px; float: right; margin-top: -34px; margin-right: 97px;}
+.custom-dropdown select {
+  background-color: #1abc9c;
+  color: #fff;
+  font-size: inherit;
+  padding: .5em;
+  padding-right: 3.5em;	
+  border: 0;
+  margin: 0;
+  border-radius: 3px;
+  text-indent: 0.01px;
+  text-overflow: '';
+  -moz-appearance: none;
+  -webkit-appearance:none;
+  appearance: none;
+}
+.custom-dropdown::before,
+.custom-dropdown::after {content: ""; position: absolute; pointer-events: none;}
+.custom-dropdown::after {content: "\25BC"; height: 1em; font-size: .625em; line-height: 1; right: 1.2em; top: 50%;
+  margin-top: -.5em;
+}
+.custom-dropdown::before { 
+  width: 2em;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 0 3px 3px 0;
+  background-color: rgba(0,0,0,.2);
+}
+.table { width: 82%; height: 33px; margin-left: 31px; background-color: #001e4d; margin-top: 25px; border: 1px solid; margin-bottom: 0rem;text-align:center;}
+.p {color: white; float: left;  padding: 4px; width: 33.3%; }
+.p1 {color: white; float: left;  padding: 4px; width: 33.3%; }
+.p2 { color: white; float: right;  padding: 4px; width: 33.3%; }
+.table2 {height: 136px; width: 82%; margin-left: 31px; border: 1px solid;}
+.row { padding: 10px; background: #fff; width:100%; margin-right: 0px; margin-left: 0px; height: 44px; }
+.line {border-bottom: 1px solid;}
+.p3 {  float: left; width: 33.3%; }
+.p4 {  float: left; width: 33.3%; padding-left: 25px;}
+.p5 { float: left;  width: 33.3%;padding-left: 47px;}
+.row1{padding: 10px; background: #fff; width:100%; margin-right: 0px; margin-left: 0px; height: 44px;}
+/* end of the track expense page*/
+
+/* start the category page*/
+.backarrow{padding: 21px;}
+.heading2{text-align: center;color: white; font-size: 1.2em;}
+.container1{height: 113px; border: 1px solid black; margin-top: 20px; width: 95%; margin-left: 8px; border-radius: 13px; background-color: #614673;}
+.leftInfo{width: 50%;  float: left; padding-left: 10px;    padding-top: 10px; color: #fff;}
+.rightInfo{padding-left: 10px;    padding-top: 10px; color: #fff;}
+.lble-colon{float: right; font-weight: bold; width: 12%;}
+.cattable{width: 95%; height: 56px; margin-left: 8px; background-color: #001e4d; margin-top: 25px; border: 1px solid; margin-bottom: 0rem;text-align:center;}
+.catrow{padding: 10px; background: #fff; width:100%; margin-right: 0px; margin-left: 0px; height: 56px}
+.cat4{color: white; float: left;  padding: 15px; width: 33.3%;}
+.cat5{color: white; float: left;  padding: 10px; width: 33.3%; }
+.cat6{color: white; float: right;  padding: 15px; width: 33.3%;}
+.cattable2{height: 172px; width: 95%; margin-left: 8px; border:1px solid;}
+.cat1{ float: left; width: 33.3%;}
+.cat2{ float: left; width: 33.3%; padding-left: 25px; }
+.cat3{float: left;  width: 33.3%;padding-left: 47px;}
+/* end of the category page*/
+
+/* start the category list page*/
+.backarrow1{padding: 21px;}
+.heading3{text-align: center;color: white; font-size: 1.2em;}
+.container2{ border: 1px solid black; margin-top: 20px; width: 95%; margin-left: 8px; border-radius: 13px; background-color: #614673;}
+.leftInfo1{width: 50%;  float: left; padding-left: 10px;    padding-top: 10px; color: #fff;}
+.rightInfo1{padding-left: 10px;    padding-top: 10px; color: #fff;}
+.lble-colon1{float: right; font-weight: bold; width: 12%;}
+.cattable1{width: 95%; height: 56px; margin-left: 8px; background-color: #001e4d; margin-top: 25px;  margin-bottom: 0rem;text-align:center;}
+.catlistrow{padding: 10px; background: #fff; width:100%; margin-right: 0px; margin-left: 0px; height: 56px}
+.catlist1{color: white; float: left;  padding: 7px; width: 20%;}
+.catlist2{color: white; float: left;  padding: 7px; width: 20%; }
+.catlist3{color: white; float: left;  padding: 7px; width: 20%;}
+.catlist4{color: white; float: left;  padding: 7px; width: 20%;}
+.cattable3{height: 172px; width: 95%; margin-left: 8px;}
+.catlist5{ float: left; width: 20%;}
+.catlist6{ float: left; width: 20%; text-align: center; }
+.catlist7{float: left;  width: 20%;text-align: center;}
+.listimg{float: left;  width: 20%;text-align: center;}
+.imgdelete{float: right;  width: 20%;text-align: center;}
+.popup{width:24%; height: 250px; background-color: #fff; border: 1px solid; position: fixed; left: 38%; right: 10%; top: 150px; text-align: center; z-index: 999;}
+.msg{text-align: center; padding-top: 95px;}
+.ok{text-align: center; width:70px; height: 40px; background:  linear-gradient(#1968ac , #09b19b); line-height: 2.6em; color; #fff; border: none; margin: 0 auto; margin-top: 5px; cursor: pointer;}
+.close{padding: 10px;}
+/* end of the category list page*/
+
+/* start the consolidate page*/
+.title2{color: white; font-size: 1.2em; padding-top: 11px; float:left; margin-left: 118px;}
+.sorticon{padding-top: 11px; float: right; margin-right: 10px;}
+.contable{ border: 1px solid black; top: 80px; width: 95%; height:70px; margin-left: 8px; border-radius: 10px; background-color: #614673; position:relative;}
+.concategory{width: 50%;  float: left; padding-left: 10px; color: #fff; position: absolute; padding-top:5px;}
+.conamount{   color: #fff; float: right; padding-top:5px;  }
+.connotesname{width: 50%;  float: left; padding-left: 10px; color: #fff; padding-top:5px;}
+.condate{   color: #fff; float: right; padding-top:5px;}
+.contable1{border: 1px solid black;  width: 95%; height:70px; margin-left: 8px; border-radius: 10px; background-color: #614673; position: relative; top: 95px;}
+.concategory1{width: 50%;  float: left; padding-left: 10px; color: #fff; position: absolute; padding-top:5px;}
+.conamount1{ color: #fff; float: right; padding-top:5px; padding-right: 26px; }
+.connotesname1{width: 50%;  float: left; padding-left: 10px; color: #fff; top: 43px; position: absolute;}
+.condate1{ color: #fff; float: right; padding-top:5px;     padding-left: 167px;    margin-right: 24px;}
+.popup1{width:24%; height: 250px;  background:  linear-gradient(#1968ac , #09b19b); border: 1px solid; position: fixed; left: 38%; right: 10%; top: 20px; text-align: center; z-index: 999;}
+.catmsg{text-align: -webkit-auto; margin-left: 25px; color: #fff; cursor: pointer;}
+.close1{padding: 10px; margin-left: 256px;}
+/* end of the consolidate page*/
+
+/* start the settings page*/
+.title1{text-align: center;color: white; font-size: 1.2em; padding-top: 11px; }
+.sortimg{float: right; margin-right: 10px; }
+.set{color: #fff; margin-top: 35px; margin-left: 38px;}
+.settings1{margin-top: 20px;}
+.settings2{font-size: 0.8em;}
+.settings3{font-size: 0.8em;float: left;}
+.syncimg{float: right; margin-right: 50px;}
+.settings4{margin-top: 20px; padding-top: 20px;}
+/* end of the settings page*/
+
