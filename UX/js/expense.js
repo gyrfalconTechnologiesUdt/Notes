@@ -14,6 +14,9 @@ $("#rec2Id").click(function(){
 $("#rec4Id").click(function(){
 	window.location.href="7_ET_settings.html";
 });
+$("#settingsId").click(function(){
+	window.location.href="7_ET_settings.html";
+});
 $("#row1Id").click(function(){
 	window.location.href="4_ET_category.html";
 });
@@ -35,9 +38,10 @@ $("#trackId").click(function(){
 $("#consId").click(function(){
 	window.location.href="6_ET_consolidate.html";
 });
-$("#settingsId").click(function(){
-	window.location.href="7_ET_settings.html";
-});
+
+
+
+
 $("#saveId").click(function(){
 	window.location.href="6_ET_consolidate.html";
 });
